@@ -32,6 +32,6 @@ public class Departement implements Serializable {
 	@OneToMany(mappedBy="departement",fetch=FetchType.LAZY)
 	private Collection<Utilisateur> personnes = new ArrayList<>();
 	
-	//jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+
 
 }
